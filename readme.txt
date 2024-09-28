@@ -1,1 +1,3 @@
-init msg
+export_rknn 导出rknn模型
+infer_with_adb rknn 联板卡推理，无后处理
+accuracyAnalysis rknn精度分析

@@ -13,10 +13,9 @@ rknn.config(
     target_platform='rk3588',
     custom_string="rknn yolov5 test",
     single_core_mode=True
-
 )
 ret = rknn.load_onnx(model='./yolov5s.onnx')
-ret = rknn.build(do_quantization=True,
+ret = rknn.build(do_quantization=False,
                  dataset='./dataset.txt')
 ret = rknn.export_rknn(export_path='./yolov5s.rknn')
 rknn.release()
