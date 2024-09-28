@@ -1,5 +1,7 @@
 rockchip/onnx2rknn/export_rknn/logs
-rockchip/onnx2rknn/accuracyAnalysis/dump/*/*
+rockchip/onnx2rknn/accuracyAnalysis/dump/allLayers_onnx/*
+rockchip/onnx2rknn/accuracyAnalysis/dump/dump_rknn/*
+rockchip/onnx2rknn/accuracyAnalysis/dump/outputLayers_onnx/*
 rockchip/onnx2rknn/*/check*
 rockchip/onnx2rknn/*/*.rknn
 rockchip/onnx2rknn/accuracyAnalysis/yolov5s.onnx
